@@ -1,7 +1,7 @@
 # Development of A Digital Twin Systems for Industrial Robots typical of Intelligent Manufacturing Applications
 [SURF] Operating 3-Axis CNC machine based on AccelStepper library
 
-<img src="https://github.com/gunwoo0623/3-Axis-CNC-Machinery/assets/52570227/645fa68f-ef6f-44a1-ace3-e923a24bd926"  width="5000" height="200"/>
+<img src="https://github.com/gunwoo0623/3-Axis-CNC-Machinery/assets/52570227/645fa68f-ef6f-44a1-ace3-e923a24bd926"  width="5000" height="500"/>
 
 [Abstract]
 Due to the increasing demand of virtual reality, engineers are trying to figure out a way to monitor and simulate industrial robots in virtual world using digital twin which is a working real-time digital replica of a physical system. Manufacturing process tend to be harmful, expensive, and complicated due to different robots having to work separately. Thus, the aim of the project is to create a simple, safer, and immersive environment to simulate and produce manufactured objects. Using different communication protocol, applications, and controller to control CNC carving machinery and ABB robotic arms for assembling parts, the team managed to create two typed of applications which are MATLAB and Unity based.
