@@ -2,6 +2,7 @@
 
 This project was completed under the supervision of Professor *Quan Zhang* during a three-month undergraduate research period in XJTLU. I, *Geonwoo Cho*, developed the CNC machine firmware, while *Jennifer Hengky Liandy* worked on integrating the digital twin with MATLAB and Unity. Lastly, *Hang Yuan* assisted with the final documentation. I extend my sincere gratitude to everyone involved.
 
+※ If Jennifer Hengky Liadny uploads the MATLAB and Unity files to her GitHub, the link will be updated here.
 ## Development of Custom Firmware
 
 ### AccelStepper Library
@@ -14,13 +15,7 @@ This project was completed under the supervision of Professor *Quan Zhang* durin
 
 ### 2-D Line Bresenham Algorithm
 
-[Dan](https://www.marginallyclever.com/2020/07/moving-your-cnc-with-bresenhams-algorithm/)
-
-[Abrash](https://www.ercankoclar.com/wp-content/uploads/2016/12/gpbb35.pdf)
-
-[Bresenham](https://ohiostate.pressbooks.pub/app/uploads/sites/45/2017/09/bresenham.pdf)
-
-[Flanagan](cs.helsinki.fi/group/goa/mallinnus/lines/bresenh.html)
+[Dan](https://www.marginallyclever.com/2020/07/moving-your-cnc-with-bresenhams-algorithm/) provides a clear explanation on why the line algorithm is crucial for CNC machines. [Abrash](https://www.ercankoclar.com/wp-content/uploads/2016/12/gpbb35.pdf) further supports the Bresenham line algorithm as the most practical among notable alternatives, as detailed in the methodology by [Bresenham](https://ohiostate.pressbooks.pub/app/uploads/sites/45/2017/09/bresenham.pdf). For additional insights, [Flanagan](https://cs.helsinki.fi/group/goa/mallinnus/lines/bresenh.html) discusses the slope ranges and characteristics for each octant, facilitating easier coding.
 
 ### G-code and M-code
 
