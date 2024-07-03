@@ -13,7 +13,16 @@ This project was completed under the supervision of Professor *Quan Zhang* durin
 
 ### Steps  to  Millimeters Conversion 
 
-The conversion of steps to millimeters in linear motion depends on the lead screw's pitch length.
+The conversion of steps to millimeters in linear motion depends on the lead screw's pitch length. For a CNC machine with a 2mm pitch length on the X-axis driven by a single motor, 1 mm of linear motion corresponds to the pitch length. A stepper motor with a 1.8° step angle typically has 200 steps per revolution. When configured with a micro-step setting of 4, the step count for 1 mm is calculated as 800 (1 pitch length × 200 steps per revolution × 4 micro-steps). Detailed step values for 1 mm at various micro-step settings are summarized in following table:
+
+| Microstep                 | Steps for 1mm                       |
+|---------------------------|-------------------------------------|
+| 1                         | 200                                 |
+| 2                         | 400                                 |
+| 4                         | 800                                 |
+| 8                         | 1600                                |
+| 16                        | 3200                                |
+| 32                        | 6400                                |
 
 ### 2-D Line Bresenham Algorithm
 
@@ -29,7 +38,7 @@ For further understanding of the importance of the line algorithm in CNC machine
 This table lists commands that can be executed, excluding G00, G01, G02, and G03 which will be addressed by communication between Arduino and Unity:
 
 | Code Number               | Description                         |
-|-------------------------|-------------------------------------|
+|---------------------------|-------------------------------------|
 | G20                       | Inch Units                          |
 | G21                       | Millimeter Units                    |
 | G28                       | Return to Home Position             |
