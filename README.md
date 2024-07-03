@@ -12,7 +12,15 @@ This project was completed under the supervision of Professor *Quan Zhang* durin
 
 ### Steps  to  Millimeters Conversion 
 
-### 2D Line Bresenham Algorithm
+### 2-D Line Bresenham Algorithm
+
+[Dan](https://www.marginallyclever.com/2020/07/moving-your-cnc-with-bresenhams-algorithm/)
+
+[Abrash](https://www.ercankoclar.com/wp-content/uploads/2016/12/gpbb35.pdf)
+
+[Bresenham](https://ohiostate.pressbooks.pub/app/uploads/sites/45/2017/09/bresenham.pdf)
+
+[Flanagan](cs.helsinki.fi/group/goa/mallinnus/lines/bresenh.html)
 
 ### G-code and M-code
 
@@ -37,7 +45,7 @@ To explore all G-code and M-code commands, visit the [Marlin firmware documentat
 
 ### Future Work: Drawing Curves
 
-## Digital Twin
+## Conclusion of Digital Twin
 
 Both MATLAB and Unity were used for the digital twin, but Unity outperformed MATLAB due to reduced communication delays. Thus, future improvements should focus on enhancing data processing to improve real-time performance.
 
