@@ -5,7 +5,7 @@
     <label th:for="name">상품이미지</label>
         <div style="height: 200px; width: 500px;">
                 <img style="height: 100%; width: 50%; float:left;" src="https://github.com/gunwoo0623/3-Axis-CNC-Machinery/assets/52570227/fb2d673f-1eee-4642-b181-593a0820ea19">
-                <img style="height: 100%; width: 50%; float:left;" src="https://github.com/gunwoo0623/3-Axis-CNC-Machinery/assets/52570227/3d309936-2502-4eb2-a25a-14303ddfbd56">
+                <img style="height: 100%; width: 50%; float:right;" src="https://github.com/gunwoo0623/3-Axis-CNC-Machinery/assets/52570227/3d309936-2502-4eb2-a25a-14303ddfbd56">
         </div>
 </div>
 
