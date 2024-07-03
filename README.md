@@ -1,7 +1,7 @@
 # Development of A Digital Twin Systems for Industrial Robots typical of Intelligent Manufacturing Applications
 [SURF] Operating 3-Axis CNC machine based on AccelStepper library
 
-![image.jpg1](https://github.com/gunwoo0623/3-Axis-CNC-Machinery/assets/52570227/fb2d673f-1eee-4642-b181-593a0820ea19) |![image.jpg2](https://github.com/gunwoo0623/3-Axis-CNC-Machinery/assets/52570227/3d309936-2502-4eb2-a25a-14303ddfbd56)
+![image.jpg1](https://github.com/gunwoo0623/3-Axis-CNC-Machinery/assets/52570227/fb2d673f-1eee-4642-b181-593a0820ea19) | ![image.jpg2](https://github.com/gunwoo0623/3-Axis-CNC-Machinery/assets/52570227/3d309936-2502-4eb2-a25a-14303ddfbd56)
 
 
 ![5](https://github.com/gunwoo0623/3-Axis-CNC-Machinery/assets/52570227/34b6b6a4-88f5-4b87-b296-52333d629897)
