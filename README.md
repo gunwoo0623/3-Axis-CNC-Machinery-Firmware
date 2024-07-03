@@ -17,9 +17,15 @@ This project was completed under the supervision of Professor *Quan Zhang* durin
 
 ### AccelStepper Library
 
-이 프로젝트는 와 함꼐 아두이노와 유니티 간의 디지털 트윈을 적용시키기이다. 
+The use of the [AccelStepper library](https://www.airspayce.com/mikem/arduino/AccelStepper/classAccelStepper.html#a5dce13ab2a1b02b8f443318886bf6fc5) significantly reduces processing time compared to manual methods. This library simplifies motion control through functions such as 'setMaxSpeed()', 'setSpeed()', and 'setAcceleration()'. However, it creates a trapezoidal profile that introduces sudden changes in jerk due to instantaneous acceleration, putting stress on motors and mechanical components. Alternatively, S-curve acceleration cannot be implemented with the AccelStepper library. Due to time limitations, instead of creating a new library specifically for direct S-curve motion profiles, the decision was made to develop firmware using the AccelStepper library.
 
-기본적인 
+#### Primary Functions for Stepper Motor Movement:
+* **move():** Enables relative movement by setting the target position relative to the current one but was excluded due to potential direction confusion for enhanced code readability.
+* **moveTo():** Facilitates absolute movement by defining the absolute target position and proves versatile in establishing relative movement by combining variables for position and direction.
+* **run():** Essential for implementing accelerations and decelerations to achieve precise positioning, ensuring dynamic motor response aligned with designated speed adjustments until reaching the desired position.
+* **runSpeed():** Designed for constant speed implementation, poses the risk of infinite jerk during the initial movement from the initial point, as indicated in the concept design, and therefore, this function will be omitted.
+
+In addition, the AccelStepper class reference specifies that the Arduino Mega, operating at a 16 MHz clock frequency, supports a maximum motor speed of approximately 4000 steps per second.
 
 ### Steps  to  Millimeters Conversion 
 
