@@ -15,8 +15,11 @@ This project was completed under the supervision of Professor *Quan Zhang* durin
 ### 2D Line Bresenham Algorithm
 
 ### G-code and M-code
+
+This table lists executable commands, excluding G00, G01, G02, and G03 which are handled by Arduino and Unity communication:
+
 | Code Number               | Description                         |
-|---------------------------|-------------------------------------|
+|-------------------------|-------------------------------------|
 | G20                       | Inch Units                          |
 | G21                       | Millimeter Units                    |
 | G28                       | Return to Home Position             |
@@ -29,6 +32,10 @@ This project was completed under the supervision of Professor *Quan Zhang* durin
 | M115                      | Check Maximum Distance              |
 | M205                      | Set Advanced Settings               |
 
+For more details on G-code commands, refer to [Dejan's explanation](https://howtomechatronics.com/tutorials/g-code-explained-list-of-most-important-g-code-commands/).  
+To explore all G-code and M-code commands, visit the [Marlin firmware documentation](https://marlinfw.org/meta/gcode/).
+
+### Future Work: Drawing Curves
 
 ## Digital Twin
 
