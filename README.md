@@ -16,7 +16,7 @@ This project was completed under the supervision of Professor *Quan Zhang* durin
 
 ### G-code and M-code
 
-This table lists executable commands, excluding G00, G01, G02, and G03 which are handled by Arduino and Unity communication:
+This table lists commands that can be executed, excluding G00, G01, G02, and G03 which will be addressed by communication between Arduino and Unity:
 
 | Code Number               | Description                         |
 |-------------------------|-------------------------------------|
