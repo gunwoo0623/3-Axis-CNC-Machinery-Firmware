@@ -9,8 +9,9 @@ Due to the increasing demand of virtual reality, engineers are trying to figure 
 [Introduction]
 The engineers in manufacturing industry has shown their interest in virtual world by developing digital twin systems to create intelligent manufacturing applications in hopes to increase the efficiency of the machines. This system allows users to monitor and simulate the behavior of industrial machines to prevent the unwanted behaviors. Using the two commonly used manufacturing robots, CNC machinery and ABB robotic arm, the students is expected to create the application with the help of different controllers, communication protocols, and application designers to achieve the optimum combination of system. Through this research, ABB robot arm is controlled using the TCP(Transmission Control Protocol) and CNC with two types of controller and communication protocol. The two types of controller consist of MCU(Microcontroller Unit) and PLC(Programmable Logic Controller). In addition, the communication is established using TCP and serial communication. Furthermore, the team is expected to develop a user-friendly application to operate the digital twin system with Arduino, MATLAB and Unity.
 
-플로우 차트 1
-![Flow chart of TestLimitSwitch309](https://github.com/gunwoo0623/3-Axis-CNC-Machinery/assets/52570227/0821c208-573b-4a6d-a19b-202d880d51cd)
+[Conclusion]
+This research successfully developed a digital twin system for ABB robotics arms and CNC machinery. The digital twin for the robotic stacking workcell was constructed using Blender and Unity 3D, facilitating real-time control through a remote platform. Robot programming was optimized, and a novel workflow was introduced for versatile workpiece handling, emphasizing energy efficiency and reliability through continuous monitoring.
 
-플로우 차트 2
+CNC machine control involved MCU and PLC, enabling real-time simulations. Two applications, MATLAB and Unity, were employed to operate the systems. As a result, Unity outperformed MATLAB due to reduced communication delays. Although MATLAB excels in data manipulation and simplicity, it is costlier and experiences delays. Therefore, communications with Arduino was one-way in MATLAB but, two-way in Unity. 
 
+However, improvements in data processing and analysis are required. This is because time-consuming mechanical simulations affect real-time performance. Therefore, reducing data processing times will enhance project efficiency.
