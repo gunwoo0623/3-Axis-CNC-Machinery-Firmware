@@ -2,7 +2,7 @@
 
 This project was completed under the supervision of Professor *Quan Zhang* during a three-month undergraduate research period in XJTLU. I, *Geonwoo Cho*, developed the CNC machine firmware, while *Jennifer Hengky Liandy* worked on inmplementing the digital twin with MATLAB and Unity. Lastly, *Hang Yuan* assisted with the final documentation. I extend my sincere gratitude to everyone involved.
 
-※ If Jennifer Hengky Liadny uploads the MATLAB and Unity files to her GitHub, the link will be updated here.
+※ If the MATLAB and Unity files are uploaded to her GitHub, the link will be updated here.
 
 ## Hardware and Electronic Circuit
 
@@ -80,6 +80,8 @@ As a result, the entire flowchart is illustrated below:
 ![Figure 37. Flowchart illustrating the firmware communicating with Unity for simulation. ](https://github.com/gunwoo0623/3-Axis-CNC-Machinery/assets/52570227/19e5d9d5-d1da-4b16-9bca-07a8001c4f86)
 
 ### Future Work: Drawing Curves
+
+The implementation of G02 and G03 for circular interpolation remains incomplete. Future efforts should focus on a thorough review of resources, particularly those referenced by [Alois](https://zingl.github.io/Bresenham.pdf) for plotting ellipses and Bézier curves.
 
 ## Conclusion of Digital Twin
 
