@@ -3,6 +3,13 @@
 This project was completed under the supervision of Professor *Quan Zhang* during a three-month undergraduate research period in XJTLU. I, *Geonwoo Cho*, developed the CNC machine firmware, while *Jennifer Hengky Liandy* worked on inmplementing the digital twin with MATLAB and Unity. Lastly, *Hang Yuan* assisted with the final documentation. I extend my sincere gratitude to everyone involved.
 
 ※ If Jennifer Hengky Liadny uploads the MATLAB and Unity files to her GitHub, the link will be updated here.
+
+## Hardware and Electronic Circuit
+
+![889642241f1aca5818a4ae52f77f93a](https://github.com/gunwoo0623/3-Axis-CNC-Machinery/assets/52570227/d958c287-57fc-4a85-a1a3-cf04541632b9)
+
+![８](https://github.com/gunwoo0623/3-Axis-CNC-Machinery/assets/52570227/b1111b31-0fd8-455d-8fa2-a6b7da4fc737)
+
 ## Development of Custom Firmware
 
 ### AccelStepper Library
@@ -55,7 +62,7 @@ For more details on G-code commands, refer to [Dejan's explanation](https://howt
 To explore all G-code and M-code commands, visit the [Marlin firmware documentation](https://marlinfw.org/meta/gcode/).
 
 
-Therefore, the whole flowchart is:
+As a result, the entire flowchart is illustrated below:
 ![Figure 37. Flowchart illustrating the firmware communicating with Unity for simulation. ](https://github.com/gunwoo0623/3-Axis-CNC-Machinery/assets/52570227/19e5d9d5-d1da-4b16-9bca-07a8001c4f86)
 
 ### Future Work: Drawing Curves
