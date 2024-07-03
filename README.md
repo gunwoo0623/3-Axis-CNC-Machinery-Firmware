@@ -6,9 +6,12 @@ This project was completed under the supervision of Professor *Quan Zhang* durin
 
 ## Hardware and Electronic Circuit
 
-![889642241f1aca5818a4ae52f77f93a](https://github.com/gunwoo0623/3-Axis-CNC-Machinery/assets/52570227/d958c287-57fc-4a85-a1a3-cf04541632b9)
-
-![８](https://github.com/gunwoo0623/3-Axis-CNC-Machinery/assets/52570227/b1111b31-0fd8-455d-8fa2-a6b7da4fc737)
+<div class="form-group">
+        <div style="height: 200px; width: 500px;">
+                <img style="height: 100%; width: 55%; float:left;" src="https://github.com/gunwoo0623/3-Axis-CNC-Machinery/assets/52570227/d958c287-57fc-4a85-a1a3-cf04541632b9">
+                <img style="height: 100%; width: 44%; float:right;" src="https://github.com/gunwoo0623/3-Axis-CNC-Machinery/assets/52570227/b1111b31-0fd8-455d-8fa2-a6b7da4fc737">
+        </div>
+</div>
 
 ## Development of Custom Firmware
 
@@ -35,7 +38,12 @@ The conversion of steps to millimeters in linear motion depends on the lead scre
 
 Bresenham's line algorithm is exclusively used for G01, as G00 is solely for positioning and does not require precise work. The plotline function plays a primary role in classifying situations. Approximately 90 lines of code were dedicated to this algorithm, totaling 126 lines for full functionality.
 
-![Figure 41. Bresenham’s Line Algorithm Implementation for G01.](https://github.com/gunwoo0623/3-Axis-CNC-Machinery/assets/52570227/ac3c192f-1490-42ad-ae17-d26765b1b2e3)
+<div class="form-group">
+        <div style="height: 200px; width: 500px;">
+                <img style="height: 100%; width: 59%; float:left;" src="https://github.com/gunwoo0623/3-Axis-CNC-Machinery/assets/52570227/ac3c192f-1490-42ad-ae17-d26765b1b2e3">
+                <img style="height: 100%; width: 40%; float:right;" src="https://github.com/gunwoo0623/3-Axis-CNC-Machinery/assets/52570227/438131ef-d3ad-4743-8692-197d5c282376">
+        </div>
+</div>
 
 For further understanding of the importance of the line algorithm in CNC machines, [Dan](https://www.marginallyclever.com/2020/07/moving-your-cnc-with-bresenhams-algorithm/) provides a clear explanation on why the line algorithm is crucial for CNC machines. [Abrash](https://www.ercankoclar.com/wp-content/uploads/2016/12/gpbb35.pdf) further supports the Bresenham line algorithm as the most practical among notable alternatives, as detailed in the methodology by [Bresenham](https://ohiostate.pressbooks.pub/app/uploads/sites/45/2017/09/bresenham.pdf). For additional insights, [Flanagan](https://cs.helsinki.fi/group/goa/mallinnus/lines/bresenh.html) discusses the slope ranges and characteristics for each octant, facilitating easier coding.
 
