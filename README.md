@@ -20,5 +20,5 @@ This project was completed under the supervision of Professor *Quan Zhang* durin
 
 
 ## Digital Twin
-
+Both MATLAB and Unity were used for the digital twin, but Unity outperformed MATLAB due to reduced communication delays. Future improvements should focus on enhancing data processing to improve real-time performance.
 ![7](https://github.com/gunwoo0623/3-Axis-CNC-Machinery/assets/52570227/dfb5de02-4196-4d1b-a47e-fed64252988e)
