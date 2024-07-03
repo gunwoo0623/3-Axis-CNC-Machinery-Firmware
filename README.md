@@ -3,20 +3,23 @@
 This project was completed under the supervision of Professor *Quan Zhang* during a three-month undergraduate research period in XJTLU. I, *Geonwoo Cho*, developed the CNC machine firmware, while *Jennifer Hengky Liandy* worked on integrating the digital twin with MATLAB and Unity. Lastly, *Hang Yuan* assisted with the final documentation. I extend my sincere gratitude to everyone involved.
 
 
-## Operation of CNC Machine
+## Operation
 
-### Based on AccelStepper library
+### 1. Custom Firmware Develepment with AccelStepper Library
+
+
 
 이 프로젝트는 와 함꼐 아두이노와 유니티 간의 디지털 트윈을 적용시키기이다. 
 
 기본적인 
 
+### 2. Linear  Motion  Calibration: Steps  to  Millimeters Conversion 
 
-### Interpolation with 2D Line Algorithm
+### 3. 2D Line Bresenham Algorithm
 
 
 
-## Digital Twin in MATLAB and Unity 3D
+## Digital Twin
 
 The CNC machine control system employs an MCU for real-time simulations. 
 Both MATLAB and Unity were used, with Unity outperforming MATLAB due to reduced communication delays. MATLAB is excellent for data manipulation but is costlier and experiences delays, allowing only one-way communication with Arduino, unlike Unity's two-way communication. Therefore, future improvements should focus on enhancing data processing to improve real-time performance.
