@@ -40,8 +40,8 @@ Bresenham's line algorithm is exclusively used for G01, as G00 is solely for pos
 
 <div class="form-group">
         <div style="height: 200px; width: 500px;">
-                <img style="height: 100%; width: 59%; float:left;" src="https://github.com/gunwoo0623/3-Axis-CNC-Machinery/assets/52570227/ac3c192f-1490-42ad-ae17-d26765b1b2e3">
-                <img style="height: 100%; width: 40%; float:right;" src="https://github.com/gunwoo0623/3-Axis-CNC-Machinery/assets/52570227/438131ef-d3ad-4743-8692-197d5c282376">
+                <img style="height: 100%; width: 64%; float:left;" src="https://github.com/gunwoo0623/3-Axis-CNC-Machinery/assets/52570227/ac3c192f-1490-42ad-ae17-d26765b1b2e3">
+                <img style="height: 100%; width: 35%; float:right;" src="https://github.com/gunwoo0623/3-Axis-CNC-Machinery/assets/52570227/438131ef-d3ad-4743-8692-197d5c282376">
         </div>
 </div>
 
