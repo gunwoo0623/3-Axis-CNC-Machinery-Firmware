@@ -3,9 +3,9 @@
 This project was completed under the supervision of Professor *Quan Zhang* during a three-month undergraduate research period in XJTLU. I, *Geonwoo Cho*, developed the CNC machine firmware, while *Jennifer Hengky Liandy* worked on integrating the digital twin with MATLAB and Unity. Lastly, *Hang Yuan* assisted with the final documentation. I extend my sincere gratitude to everyone involved.
 
 
-## Operation
+## Development of Custom Firmware
 
-### 1. Custom Firmware Develepment with AccelStepper Library
+### 1. With AccelStepper Library
 
 
 
@@ -13,7 +13,7 @@ This project was completed under the supervision of Professor *Quan Zhang* durin
 
 기본적인 
 
-### 2. Linear  Motion  Calibration: Steps  to  Millimeters Conversion 
+### 2. Steps  to  Millimeters Conversion 
 
 ### 3. 2D Line Bresenham Algorithm
 
