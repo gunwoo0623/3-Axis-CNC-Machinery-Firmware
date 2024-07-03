@@ -21,7 +21,4 @@ This project was completed under the supervision of Professor *Quan Zhang* durin
 
 ## Digital Twin
 
-The CNC machine control system employs an MCU for real-time simulations. 
-Both MATLAB and Unity were used, with Unity outperforming MATLAB due to reduced communication delays. MATLAB is excellent for data manipulation but is costlier and experiences delays, allowing only one-way communication with Arduino, unlike Unity's two-way communication. Therefore, future improvements should focus on enhancing data processing to improve real-time performance.
-
 ![7](https://github.com/gunwoo0623/3-Axis-CNC-Machinery/assets/52570227/dfb5de02-4196-4d1b-a47e-fed64252988e)
