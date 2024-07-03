@@ -5,7 +5,7 @@ This project was completed under the supervision of Professor *Quan Zhang* durin
 
 ## Development of Custom Firmware
 
-### 1. With AccelStepper Library
+### AccelStepper Library
 
 
 
@@ -13,10 +13,24 @@ This project was completed under the supervision of Professor *Quan Zhang* durin
 
 기본적인 
 
-### 2. Steps  to  Millimeters Conversion 
+### Steps  to  Millimeters Conversion 
 
-### 3. 2D Line Bresenham Algorithm
+### 2D Line Bresenham Algorithm
 
+### G-code and M-code
+| Code Number               | Description                         |
+|---------------------------|-------------------------------------|
+| G20                       | Inch Units                          |
+| G21                       | Millimeter Units                    |
+| G28                       | Return to Home Position             |
+| G33                       | Calibration                         |
+| G60                       | Save Current Position               |
+| G61                       | Return to Saved Position            |
+| M17                       | Enable Motors                       |
+| M18                       | Disable Motors                      |
+| M114                      | Manually Set Position               |
+| M115                      | Check Maximum Distance              |
+| M205                      | Set Advanced Settings               |
 
 
 ## Digital Twin
