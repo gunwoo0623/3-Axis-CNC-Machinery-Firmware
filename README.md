@@ -54,6 +54,10 @@ This table lists commands that can be executed, excluding G00, G01, G02, and G03
 For more details on G-code commands, refer to [Dejan's explanation](https://howtomechatronics.com/tutorials/g-code-explained-list-of-most-important-g-code-commands/).  
 To explore all G-code and M-code commands, visit the [Marlin firmware documentation](https://marlinfw.org/meta/gcode/).
 
+
+Therefore, the whole flowchart is:
+![Figure 37. Flowchart illustrating the firmware communicating with Unity for simulation. ](https://github.com/gunwoo0623/3-Axis-CNC-Machinery/assets/52570227/19e5d9d5-d1da-4b16-9bca-07a8001c4f86)
+
 ### Future Work: Drawing Curves
 
 ## Conclusion of Digital Twin
