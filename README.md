@@ -20,6 +20,8 @@ The following video demonstrates the process of optimizing handwritten lines int
 
 ## Hardware and Electronic Circuit
 
+The hardware shown in the front-facing view is depicted in the left photo, while the electronic circuit designed by Hang Yuan using AutoCAD is displayed on the right. The configuration of the electronic circuit was supervised by Professor Quan Zhang, with collaborative participation in wiring the devices.
+
 <div class="form-group">
         <div style="height: 200px; width: 500px;">
                 <img style="height: 100%; width: 55%; float:left;" src="https://github.com/gunwoo0623/3-Axis-CNC-Machinery/assets/52570227/d958c287-57fc-4a85-a1a3-cf04541632b9">
