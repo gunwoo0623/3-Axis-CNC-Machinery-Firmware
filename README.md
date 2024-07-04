@@ -2,8 +2,6 @@
 
 This project was completed under the supervision of Professor *Quan Zhang* during a three-month undergraduate research period in XJTLU. I, *Geonwoo Cho*, developed the CNC machine firmware, while *Jennifer Hengky Liandy* worked on inmplementing the digital twin with MATLAB and Unity. Lastly, *Hang Yuan* assisted with the final documentation. I extend my sincere gratitude to everyone involved.
 
-※ If the MATLAB and Unity files are uploaded to her GitHub, the link will be updated here.
-
 ## Demonstration Video
 
 ### X, Y, and Z Axis Movement
@@ -104,3 +102,6 @@ The implementation of G02 and G03 for circular interpolation remains incomplete.
 Both MATLAB and Unity were used for the digital twin, but Unity outperformed MATLAB due to reduced communication delays. Thus, future improvements should focus on enhancing data processing to improve real-time performance.
 
 ![Result of Digital Twin with MATLAB and Unity](https://github.com/gunwoo0623/3-Axis-CNC-Machinery/assets/52570227/dfb5de02-4196-4d1b-a47e-fed64252988e)
+
+
+※ If the MATLAB and Unity files are uploaded to her GitHub, the link will be updated here. She was responsible for Simulink in MATLAB and C# coding for Unity.
