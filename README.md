@@ -20,7 +20,7 @@ The following video demonstrates the process of optimizing handwritten lines int
 
 ## Hardware and Electronic Circuit
 
-The hardware shown in the front-facing view is depicted in the left photo, while the electronic circuit designed by Hang Yuan using AutoCAD is displayed on the right. The configuration of the electronic circuit was supervised by Professor Quan Zhang, with collaborative participation in wiring the devices.
+For more detailed configurations and diagrams, please refer to the "Guidance.pdf."
 
 <div class="form-group">
         <div style="height: 200px; width: 500px;">
