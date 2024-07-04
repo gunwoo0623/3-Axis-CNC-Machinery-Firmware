@@ -1,4 +1,4 @@
-# 3-Axis CNC Machine Firmware for Digital Twin
+# 3-Axis CNC Machinery Firmware for Digital Twin
 
 This project was completed under the supervision of Professor *Quan Zhang* during a three-month undergraduate research period in XJTLU. I, *Geonwoo Cho*, developed the CNC machine firmware, while *Jennifer Hengky Liandy* worked on inmplementing the digital twin with MATLAB and Unity. Lastly, *Hang Yuan* assisted with the final documentation. I extend my sincere gratitude to everyone involved.
 
