@@ -8,11 +8,15 @@ This project was completed under the supervision of Professor *Quan Zhang* durin
 
 ### X, Y, and Z Axis Movement
 
-![Video1_CouseWork2_1825484-1927511-2035977online-video-cutter com-ezgif com-video-to-gif-converter](https://github.com/gunwoo0623/3-Axis-CNC-Machinery-Firmware/assets/52570227/37511b81-a4c6-4ac2-8926-fe690e20c81b)
+The following video demonstrates homing, calibration, and moving to a specific point using the Unity 3D user interface:
+
+![Video1](https://github.com/gunwoo0623/3-Axis-CNC-Machinery-Firmware/assets/52570227/37511b81-a4c6-4ac2-8926-fe690e20c81b)
 
 ### Drawing a Star
 
-![Video2_CouseWork2_1825484-1927511-2035977online-video-cutter com-ezgif com-video-to-gif-converter (1)](https://github.com/gunwoo0623/3-Axis-CNC-Machinery-Firmware/assets/52570227/f63c7529-cfa7-4a10-903b-ceb3b68e39a0)
+The following video demonstrates the process of optimizing handwritten lines into linear shapes and sequentially following the order in which they were written:
+
+![Video2](https://github.com/gunwoo0623/3-Axis-CNC-Machinery-Firmware/assets/52570227/f63c7529-cfa7-4a10-903b-ceb3b68e39a0)
 
 ## Hardware and Electronic Circuit
 
